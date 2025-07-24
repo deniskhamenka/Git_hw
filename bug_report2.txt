@@ -38,4 +38,4 @@ Notes:
 - Appears only when zoom level is set to 90% or less
 
 Reported by: Denis Kh.
-Date: 2025-07-24
+Date: 2025-07-14
