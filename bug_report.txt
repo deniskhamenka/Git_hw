@@ -8,7 +8,7 @@ Environment:
 - OS: iOS 17.5
 - App Version: 3.2.1 (Build 1023)
 - Network: Wi-Fi 5GHz
-- User Role: Registered user
+- User Role: Registered User
 
 Steps to Reproduce:
 1. Open the app and login
