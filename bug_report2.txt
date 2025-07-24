@@ -1,0 +1,41 @@
+Bug Report
+
+ID: BUG-2025-087
+Title: [Web][UI] Tooltip overlaps with dropdown menu on hover
+
+Environment:
+- Browser: Google Chrome 125.0.6422.142 (64-bit)
+- OS: macOS 14.5 (Sonoma)
+- Screen Resolution: 1440x900
+- User Role: Admin
+
+Steps to Reproduce:
+1. Log in to the admin dashboard
+2. Navigate to "Users" tab
+3. Hover over the info icon next to the "Status" column
+4. At the same time, open the "Actions" dropdown in the same row
+
+Expected Result:
+Tooltip should appear without overlapping other UI components
+
+Actual Result:
+Tooltip overlaps the dropdown menu, making action options unreadable
+
+Attachments:
+- Screenshot (tooltip_overlap.png)
+
+Reproducibility:
+4/5
+
+Severity:
+Medium – UI glitch, but doesn’t block functionality
+
+Priority:
+P3
+
+Notes:
+- Issue is not present in Firefox or Safari
+- Appears only when zoom level is set to 90% or less
+
+Reported by: Denis Kh.
+Date: 2025-07-24
