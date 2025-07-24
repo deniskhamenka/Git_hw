@@ -5,7 +5,7 @@ Title: [Mobile][iOS] App crashes when attempting to upload profile photo from iC
 
 Environment:
 - Device: iPhone 13
-- OS: iOS 17.5
+- OS: iOS 17.4
 - App Version: 3.2.1 (Build 1023)
 - Network: Wi-Fi 5GHz
 - User Role: Registered User
