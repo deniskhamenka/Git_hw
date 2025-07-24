@@ -1,1 +1,45 @@
+Bug Report
 
+ID: BUG-2025-074
+Title: [Mobile][iOS] App crashes when attempting to upload profile photo from iCloud
+
+Environment:
+- Device: iPhone 13
+- OS: iOS 17.5
+- App Version: 3.2.1 (Build 1023)
+- Network: Wi-Fi 5GHz
+- User Role: Registered user
+
+Steps to Reproduce:
+1. Open the app and login
+2. Go to "Profile" → "Edit Profile"
+3. Tap on the profile image placeholder
+4. Select "Choose from Files"
+5. Choose a photo stored in iCloud
+6. App crashes immediately after selection
+
+Expected Result:
+User is able to select a photo from iCloud and see it appear in the profile preview
+
+Actual Result:
+App crashes and closes unexpectedly after iCloud image selection
+
+Attachments:
+- Crash logs (attached as crashlog_20250724.txt)
+- Video recording (attached as screen_record_20250724.mov)
+
+Reproducibility:
+5/5
+
+Severity:
+High – affects basic profile functionality and causes crash
+
+Priority:
+P2
+
+Notes:
+- Does not reproduce if the photo is selected from local gallery
+- Possibly related to permission or file handling issue
+
+Reported by: Denis Kh.
+Date: 2025-07-24
